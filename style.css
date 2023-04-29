@@ -56,7 +56,7 @@ body {
 /******* 2. Sekce OBSAH - nadpis a textova cast uprostred  **********/
 .obsah {
     padding: 0 30px;
-    margin-top: 40px;
+    margin-top: 40px 0;
 }
 
 h1 {
@@ -84,15 +84,18 @@ ul {
 li {
     display: inline-block;
     width: 50%;
-    border: 1px solid hsla(204, 8%, 76%, 0.5);
+    border-top: 1px solid hsla(204, 8%, 76%, 0.5);
     padding: 15px;
     text-align: center;
 
 }
 .portfolio {
     width: 100%;
-
 }
+.facebook {
+    border-right: 1px solid hsla(204, 8%, 76%, 0.5);;
+}
+
 li a {
     text-decoration: none;
     color: inherit;
